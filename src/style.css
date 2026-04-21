@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'CrimsonText';
+  src: url('../assets/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playwrite';
+  src: url('../assets/PlaywriteNO-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sekuya';
+  src: url('../assets/Sekuya-Regular.ttf') format('truetype');
+}
+
+body {
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 174, 255);
+    border: 5% solid rgb(14, 10, 5);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+
+.title-sekuya {
+  font-family: 'Sekuya', sans-serif;
+  color: #f70000;
+  font-size: 5vw;
+  margin-bottom: 2%;
+  margin-top: 0;
+}
+
+.text-crimson {
+  font-family: 'CrimsonText', serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 2.5vw;
+  margin-bottom: 2%;
+  margin-top: 0;
+}
+
+.text-playwrite {
+  font-family: 'Playwrite', cursive;
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 2.5vw;
+  margin-bottom: 2%;
+  margin-top: 0;
+}
